@@ -1,0 +1,20 @@
+Part One: Solidify Terminology
+In your own terms, define the following terms:
+
+What is HTTP?  HTTP is the language protocol used for two computers talking to each other.
+
+What is a URL?  A URL is a web address, the human-readable version of an IP address, essentially
+
+What is DNS? This is like the phone book of the web - a server that looks at a request and attempts to find it (if it is valid)
+
+What is a query string? An additional portion of a URL that can include specific parameter/value pairs for refining the request further
+
+What are two HTTP verbs and how are they different?  GET is a request verb that is simply retrieving a URL with no side effects.  POST is a request verb with intentional side effects such as credit card payment, blog post, or a "like"
+
+What is an HTTP request? A request is a block of information sent to a server with a method and headers in the anticipation of a result - retrieving a website back, for example.
+
+What is an HTTP response? The response is what is returned from the server in the event of a request.  This could be a successful site load, or potentially a 404 error if not found.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen. A header is a parameter:value pair such as Accept-Language:fr (for French) or content-type:html
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?  The browser does a GET request to a server that looks through various sources (computer cache, DNS, etc.) and returns the site along with any additional requests that need to be made (image sources, stylesheets, etc.), a completed DOM, and user interface (the site we would be familiar with)
